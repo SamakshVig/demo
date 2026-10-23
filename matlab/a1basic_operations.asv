@@ -1,0 +1,19 @@
+x=1+2-5*8;
+%% or % for comment
+a=1:5;%this is a row matrix
+b=(1:5);
+% Calculate the sum of elements in a and b
+sumA = sum(a);
+% Calculate the element-wise product of a and b
+result = a .* b
+% Calculate the matrix product of a and b
+c=(1:5)';%this is a column matrix
+result = a * c
+a=2;
+b=5;
+result=log10(a)
+% Calculate the exponential of a no.
+result = exp(2);
+% Calculate the a^b
+result=pow
+
